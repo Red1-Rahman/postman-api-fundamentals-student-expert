@@ -1,0 +1,15 @@
+{
+  "method": "PATCH",
+  "url": "{{baseUrl}}/books/:id",
+  "description": "Check out a book by updating its status",
+  "pathVariables": {
+    "id": "{{id}}"
+  },
+  "queryParams": {},
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "checkedOut": true
+  }
+}

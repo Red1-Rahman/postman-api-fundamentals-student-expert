@@ -1,0 +1,10 @@
+{
+  "method": "GET",
+  "url": "{{baseUrl}}/books",
+  "description": "Retrieve all books from the library collection",
+  "queryParams": {},
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": null
+}

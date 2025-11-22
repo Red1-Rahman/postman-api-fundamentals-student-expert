@@ -1,0 +1,20 @@
+{
+  "method": "POST",
+  "url": "{{skillcheckBaseUrl}}/post",
+  "description": "Skill check endpoint for certification validation",
+  "queryParams": {
+    "movieName": "Kingdom of Heaven"
+  },
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "authorization": {
+    "type": "apikey",
+    "key": "student-expert",
+    "value": "skillcheck"
+  },
+  "body": {
+    "actorName": "Orlando Bloom"
+  },
+  "postResponseScript": "save actorName as collection variable favoriteActor"
+}

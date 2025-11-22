@@ -1,0 +1,13 @@
+{
+  "method": "DELETE",
+  "url": "{{baseUrl}}/books/:id",
+  "description": "Delete a book from the library collection",
+  "pathVariables": {
+    "id": "{{id}}"
+  },
+  "queryParams": {},
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": null
+}

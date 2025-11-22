@@ -1,0 +1,13 @@
+{
+  "method": "GET",
+  "url": "{{baseUrl}}/books",
+  "description": "Retrieve fiction books that are not checked out",
+  "queryParams": {
+    "genre": "fiction",
+    "checkedOut": "false"
+  },
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": null
+}

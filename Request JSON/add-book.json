@@ -1,0 +1,17 @@
+{
+  "method": "POST",
+  "url": "{{baseUrl}}/books",
+  "description": "Add a new book to the library collection",
+  "queryParams": {},
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "id": "123",
+    "title": "Sahih al-Bukhari",
+    "author": "Imam Muhammad ibn Ismail al-Bukhari",
+    "genre": "hadith-collection",
+    "yearPublished": 846
+  },
+  "postRequestScript": "save id to collection variable id"
+}

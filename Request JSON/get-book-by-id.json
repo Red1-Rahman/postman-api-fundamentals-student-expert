@@ -1,0 +1,13 @@
+{
+  "method": "GET",
+  "url": "{{baseUrl}}/books/:id",
+  "description": "Retrieve a specific book by its ID",
+  "pathVariables": {
+    "id": "{{id}}"
+  },
+  "queryParams": {},
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": null
+}
