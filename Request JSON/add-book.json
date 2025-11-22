@@ -7,11 +7,10 @@
     "Content-Type": "application/json"
   },
   "body": {
-    "id": "123",
-    "title": "Sahih al-Bukhari",
-    "author": "Imam Muhammad ibn Ismail al-Bukhari",
-    "genre": "hadith-collection",
-    "yearPublished": 846
-  },
+  "title": "Sahih al-Bukhari",
+  "author": "Imam Muhammad ibn Ismail al-Bukhari",
+  "genre": "hadith-collection",
+  "yearPublished": 846
+},
   "postRequestScript": "save id to collection variable id"
 }
