@@ -1,0 +1,31 @@
+name: Validate Project Files
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    - name: Validate JSON files
+      run: |
+        echo "Validating JSON files..."
+        find . -name "*.json" -type f | while read file; do
+          echo "Checking $file"
+          python -m json.tool "$file" > /dev/null || exit 1
+        done
+        echo "All JSON files are valid!"
+    
+    - name: Check JavaScript syntax
+      run: |
+        echo "Checking JavaScript files..."
+        find . -name "*.js" -type f | while read file; do
+          echo "Checking $file"
+          node -c "$file" || exit 1
+        done
+        echo "All JavaScript files have valid syntax!"
