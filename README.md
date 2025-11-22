@@ -1,4 +1,5 @@
 # Postman Api Fundamentals Student Expert
+<img width="291" height="291" alt="Postman - Postman API Fundamentals Student Expert - 2025-11-22" src="https://github.com/user-attachments/assets/620ba291-22d7-4434-9d1b-c80cbbd24969" />
 
 This repository contains my **Postman API Fundamentals Student Expert Certification** project completed as a **Web Engineering Lab** task at my university.
 
