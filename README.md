@@ -3,6 +3,8 @@
 This repository contains my **Postman API Fundamentals Student Expert Certification** project completed as a **Web Engineering Lab** task at my university.
 
 **Student:** Redwan Rahman  
+Department of Computer Science and Engineering  
+Daffodil International University   
 **Course Name:** Web Engineering Lab  
 **Course Code:** CSE416
 
