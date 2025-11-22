@@ -74,7 +74,6 @@ This project demonstrates mastery of API testing and automation using Postman. T
 
 ```json
 {
-  "id": "123",
   "title": "Sahih al-Bukhari",
   "author": "Imam Muhammad ibn Ismail al-Bukhari",
   "genre": "hadith-collection",
