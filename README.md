@@ -1,5 +1,5 @@
 # Postman Api Fundamentals Student Expert
-
+https://cc.sj-cdn.net/instructor/3d8458f2k85sh-postman/course_series/3a5xz9m019od4/promo-image.1649784759.png
 This repository contains my **Postman API Fundamentals Student Expert Certification** project completed as a **Web Engineering Lab** task at my university.
 
 **Student:** Redwan Rahman  
